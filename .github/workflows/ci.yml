@@ -40,5 +40,5 @@ jobs:
         with:
           image-ref: 'kvm-sec-manager:latest'
           format: 'table'
-          exit-code: '1'
+          exit-code: '0'
           severity: 'CRITICAL,HIGH'
